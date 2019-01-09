@@ -13,10 +13,13 @@ end
 def division(num1, num2)
   describe "#division" do
     it "divides two numbers" do
-      expect(division())
-end
+      expect(division(50,2)).to eq (25)
+      end
 
 def multiplication(num1, num2)
+  describe "#multiplication" do
+    it "multiplies two numbers" do
+      expect(multiplication(10,10)).to eq (100)
 end
 
 def modulo(num1, num2)
