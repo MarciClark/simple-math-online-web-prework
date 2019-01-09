@@ -11,6 +11,9 @@ def subtraction(num1, num2)
 end
 
 def division(num1, num2)
+  describe "#division" do
+    it "divides two numbers" do
+      expect(division())
 end
 
 def multiplication(num1, num2)
