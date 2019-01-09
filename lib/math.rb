@@ -7,7 +7,7 @@ end
 def subtraction(num1, num2)
   desribe "#subtraction" do
     it "subtracts two numbers" do
-      expect(subtraction())
+      expect(subtraction(10,5)).to eq()
 end
 
 def division(num1, num2)
