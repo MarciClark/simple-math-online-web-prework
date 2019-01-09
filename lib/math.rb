@@ -5,6 +5,9 @@ def addition(num1, num2)
 end
 
 def subtraction(num1, num2)
+  desribe "#subtraction" do
+    it "subtracts two numbers" do
+      expect(subtraction())
 end
 
 def division(num1, num2)
